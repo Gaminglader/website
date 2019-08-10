@@ -1,18 +1,19 @@
-
 .parallax {
   /* The image used */
-  background-image: url('https://cdn.vox-cdn.com/thumbor/N0LYmOL6j9dY0WCh_sw1zTMzU50=/0x0:1920x1089/1200x800/filters:focal(815x67:1121x373)/cdn.vox-cdn.com/uploads/chorus_image/image/59292793/pubg.0.jpg');
+  background-image: url('https://cdn.guidingtech.com/imager/media/assets/212753/Top-N-PUBG-Wallpapers-in-Full-HD-for-PC-and-Phone-2_4d470f76dc99e18ad75087b1b8410ea9.jpg?1546415462');
 
   /* Set a specific height */
-  height: 50%;
-  width:100%;
+  height: 500px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-size: cover;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   
+  
+   
 }
+
 
 .centered{
     margin-left: 20%;
@@ -20,27 +21,19 @@
 }
 
 
-/* SCREENSHOT SECTION */
 
-.section.screenshots .thumbnails li {
-	display: inline-block;
-	width: 47%;
-	margin-bottom: 40px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center bottom;
+
+.navbar-brand
+{
+   
+    width: 100%;
+    left: 0;
+    text-align: center;
+   
 }
-.section.screenshots .thumbnails li, .screenshot img {
-	opacity: 0.85;
-	transition: opacity .2s;
-}
-	.section.screenshots .thumbnails li:hover, .screenshot a:hover img {
-		opacity: 1;
-	}
-	.section.screenshots .thumbnails li img {
-		width: 100%;
-		height: auto;
-	}
-.section.screenshots .thumbnails li:nth-child(odd) {
-	margin-right: 5.5%;
+.center {
+  display: block;
+  margin-left: 24%;
+  margin-right: auto;
+  width: 50%;
 }
